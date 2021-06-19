@@ -9,7 +9,15 @@ h1{
 	margin-bottom: 30px;
 }
 
-div{
-  color: blue; 
-  margin-left: 40px;
+#left{
+	width: 300px;
+	margin: 0 auto;
+	background-color: blue; 
+ 
+}
+
+#right{
+	width : 500px;
+	margin: 0 auto;
+  background-color: red; 
 }
