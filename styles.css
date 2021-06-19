@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body{
 	background-color: #F0F8FF;	
 	font-family: calibri;
@@ -15,3 +21,16 @@ h1{
 	margin: 0 auto;
 }
 
+.simple{
+	background-color: white;
+	width: 500px;
+	margin: 20px auto;
+}
+
+.fancy{
+	background-color: white;
+	width: 500px;
+	margin: 20px auto;
+	padding: 50px;
+	border: solid blue 10px;
+}
