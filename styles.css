@@ -10,14 +10,8 @@ h1{
 }
 
 #left{
-	width: 300px;
+	background-color: white;
+	max-width: 800px;
 	margin: 0 auto;
-	background-color: blue; 
- 
 }
 
-#right{
-	width : 500px;
-	margin: 0 auto;
-  background-color: red; 
-}
