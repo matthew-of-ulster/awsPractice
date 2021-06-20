@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  background-color : red;
+}
+nav {
+  float: left;
+  width: 200px;
+  width: 200px;
+  background-color:green;
+}
+.clearfix {
+  /* position is static by default */
+  background-color: blue;
+  overflow: auto;
+  zoom: 1;
+}
+section {
+  /* position is static by default */
+  margin-left: 200px;
+  background-color: blue;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+  background-color:yellow;
+}
+img {
+  float: right;
+  height: 30%;
+  width: 30%;
+}
