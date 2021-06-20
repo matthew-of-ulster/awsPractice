@@ -12,6 +12,8 @@ section {
   /* position is static by default */
   margin-left: 200px;
   background-color: blue;
+  overflow: auto;
+  zoom: 1;
 }
 footer {
   position: fixed;
