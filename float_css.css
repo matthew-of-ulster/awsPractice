@@ -8,6 +8,22 @@ nav {
   width: 200px;
   background-color:green;
 }
+
+@media (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+}
+@media (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+
 .clearfix {
   /* position is static by default */
   background-color: blue;
